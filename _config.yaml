@@ -1,0 +1,5 @@
+title: bysatellite
+markdown: kramdown
+plugins: 
+  - jekyll-remote-theme
+remote-theme: site-satel.li-module
