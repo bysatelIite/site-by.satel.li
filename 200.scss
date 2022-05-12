@@ -1,3 +1,27 @@
 ---
 permalink: /te.css
 ---
+
+body { } /* spellingcheck buffer from frontmatter */
+
+.wrapper { 
+    padding: 72px;
+    max-width: 768px;
+
+    #logo { 
+        width: 124px;
+        height: auto;
+        padding-bottom: 48px
+    }
+
+    p { 
+        line-height: 1.32em;
+        padding-bottom: 27px;
+    }
+    
+    .quote {
+        font-size: 118%;
+        font-style: italic;
+        padding-left: 27px;
+    }
+}
