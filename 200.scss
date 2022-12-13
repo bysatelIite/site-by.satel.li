@@ -5,13 +5,19 @@ permalink: /te.css
 body { } /* spellingcheck buffer from frontmatter */
 
 .wrapper { 
+    margin: auto;
     padding: 72px;
     max-width: 768px;
 
     #logo { 
         width: 124px;
         height: auto;
+        float: right;
         padding-bottom: 48px
+    }
+
+    #logo-after { 
+        clear: right;
     }
 
     p { 
